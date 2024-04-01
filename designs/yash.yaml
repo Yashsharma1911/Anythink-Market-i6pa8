@@ -1,0 +1,111 @@
+name: Untitled Design
+services:
+  TextBox:
+    name: TextBox
+    type: TextBox
+    apiVersion: core.meshery.io/v1alpha1
+    version: 0.7.1
+    model: meshery-core
+    traits:
+      meshmap:
+        edges: []
+        id: b80d6bcc-456b-4436-ad10-72f1b5ae0aca
+        label: TextBox
+        meshmodel-data:
+          category:
+            metadata: null
+            name: Orchestration & Management
+          components: []
+          displayName: Meshery Core
+          hostID: 00000000-0000-0000-0000-000000000000
+          id: 5400b823-94ee-543c-8877-4ca3e299fcc4
+          metadata:
+            isAnnotation: false
+            published: true
+            subCategory: App Definition and Development
+            svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+            svgComplete: ""
+            svgWhite: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+          name: meshery-core
+          relationships: []
+          status: registered
+          version: 0.7.1
+        meshmodel-metadata:
+          capabilities: '{"designer":{"edit":{"text":true, "config":false,"lock":true,"shape":{"convert-shape":true},"style":true},"label":{"edit":true,"show":true,"sync-with-config-property":"label"}}}'
+          defaultData: '{"label":""}'
+          genealogy: ""
+          hasInvalidSchema: true
+          isAnnotation: true
+          primaryColor: '#00B39F'
+          published: true
+          secondaryColor: '#00D3A9'
+          shape: rectangle
+          shapePolygonPoints: ""
+          styleOverrides: '{"height":"20px","width":"40px", "background-image":"none","border-width":1,"border-style":"dashed","background-opacity":0,"border-color":"#808080","data":{"label":""}}'
+          styles: '{"height":"20px","width":"40px", "background-image":"none","border-width":1,"border-style":"dashed","background-opacity":0,"border-color":"#808080"}'
+          subCategory: ""
+          svgColor: ui/public/static/img/meshmodels/meshery-core/color/credential-color.svg
+          svgComplete: ""
+          svgWhite: ui/public/static/img/meshmodels/aws-node-termination-handler-2/white/terminator-white.svg
+        position:
+          posX: 436.11973445622255
+          posY: 45.44842690783087
+        whiteboardData: {}
+  comment-xb:
+    name: comment-xb
+    type: Comment
+    apiVersion: core.meshery.io/v1alpha1
+    namespace: default
+    version: 0.7.1
+    model: meshery-core
+    settings:
+      user Messages: []
+    traits:
+      meshmap:
+        edges: []
+        id: 732edaec-7e12-44af-8e21-691877407e78
+        label: Comment
+        meshmodel-data:
+          category:
+            metadata: null
+            name: Orchestration & Management
+          components: []
+          displayName: Meshery Core
+          hostID: 00000000-0000-0000-0000-000000000000
+          id: 5400b823-94ee-543c-8877-4ca3e299fcc4
+          metadata:
+            isAnnotation: false
+            published: true
+            subCategory: App Definition and Development
+            svgColor: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+            svgComplete: ""
+            svgWhite: ui/public/static/img/meshmodels/meshery-core/color/meshery-core-color.svg
+          name: meshery-core
+          relationships: []
+          status: registered
+          version: 0.7.1
+        meshmodel-metadata:
+          capabilities: ""
+          defaultData: ""
+          genealogy: ""
+          isAnnotation: true
+          primaryColor: '#FFDE00'
+          published: true
+          secondaryColor: '#FFDE00'
+          shape: tag
+          shapePolygonPoints: ""
+          styleOverrides:
+            height: 22px
+            width: 22px
+            x: 3.5px
+            "y": 7.5px
+            z-index: 3
+          styles: '{"height":"22px","width":"22px","x":"3.5px","y":"7.5px"}'
+          subCategory: ""
+          svgColor: ui/public/static/img/meshmodels/meshery-core/color/comment-color.svg
+          svgComplete: ""
+          svgWhite: ui/public/static/img/meshmodels/meshery-core/color/comment-color.svg
+        position:
+          posX: 621.7899632877832
+          posY: 26.470335994282458
+        whiteboardData: {}
